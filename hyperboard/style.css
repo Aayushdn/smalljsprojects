@@ -13,11 +13,10 @@ body {
 .container {
   margin: auto;
   width: 50vw;
-  /* height: 50vh; */
   display: grid;
   grid-template-columns: repeat(18, 15px);
   grid-template-rows: repeat(18, 15px);
-  /* grid-gap: 1px; */
+  justify-content: center;
 }
 
 .square {
