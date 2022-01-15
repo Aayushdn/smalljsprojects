@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@100;300;400;500;700&family=Raleway:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: clamp(300px, 95vw, 800px);
+  margin: auto;
+
+  font-family: 'Poppins', sans-serif;
+}
+
+h1.title {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  width: 100%;
+}
+.postContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  overflow: hidden;
+  gap: 40px;
+}
+.post {
+  transform: translateX(95%);
+  width: clamp(300px, 100%, 600px);
+  box-shadow: -2px 22px 44px -5px rgba(186, 175, 175, 0.47);
+}
+
+.postHeader {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+  background: rgb(177, 177, 177);
+}
+
+.postHeader .dp img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.lightText {
+  font-weight: 300;
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.menu img {
+  width: 30px;
+}
+
+.postBody {
+  padding: 10px;
+  background: #fff;
+}
+
+.feedIcon img,
+svg {
+  width: 35px;
+}
+
+.postEnd {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 0 0 10px 10px;
+  background-color: rgb(177, 177, 177);
+}
+
+.postEnd .feedIcon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.feedIcon:nth-child(even) {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+
+.post.show {
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+}
