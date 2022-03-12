@@ -8,7 +8,7 @@ const animObserver = new IntersectionObserver(
     entries.forEach((entry) => {
       //   console.log(entry);
       entry.target.classList.toggle('show', entry.isIntersecting);
-      //   if (entry.isIntersecting) animObserver.unobserve(entry.target);
+      if (entry.isIntersecting) animObserver.unobserve(entry.target);
     });
   },
   {
