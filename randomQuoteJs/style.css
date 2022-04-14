@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #000;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+body {
+  background: url('./assets/bg.jpg'),
+    linear-gradient(to right, rgba(64, 63, 63, 0.152), rgb(44, 43, 43))
+      no-repeat center center fixed;
+  background-size: cover;
+}
+
+main {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.detail {
+  color: white;
+}
+
+.quote {
+  padding: 50px 50px 10px 50px;
+  color: white;
+  font-size: 2rem;
+  /* font-family: 'Beau Rivage', cursive; */
+  font-weight: 300;
+  /* border: 10px solid pink; */
+  border-radius: 20px;
+  position: relative;
+  /* background: linear-gradient(to right, rgba(209, 179, 184, 0.568), #4342410c),
+    url("./assets/bg.jpg") no-repeat center center; */
+  /* font-style: italic; */
+}
+
+.quote::before {
+  content: "''";
+  font-size: 5rem;
+  position: absolute;
+  top: -5px;
+}
+
+.btn {
+  padding: 10px 30px;
+  margin: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-family: poppins;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  box-shadow: 2px -5px 1px #fff;
+}
+
+.btn:hover {
+  box-shadow: 2px -5px 1px #000;
+  background-color: white;
+  color: black;
+}
