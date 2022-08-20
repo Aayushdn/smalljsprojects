@@ -6,4 +6,5 @@
 | --- | ----------------- | ------------------------------------------------------------------------ |
 | 1   | Hyperboard        | [Live here](https://www.aayushdn.me/smalljsprojects/hyperboard)          |
 | 2   | Infinite Scroll   | [Live here](https://www.aayushdn.me/smalljsprojects/infintescroll/)      |
-| 3   | Simple Calculator | [Live Server](https://www.aayushdn.me/smalljsprojects/calculatorAppOOP/) |
+| 3   | Simple Calculator | [Live Here](https://www.aayushdn.me/smalljsprojects/calculatorAppOOP/) |
+| 4   | Random Quote | [Live Here](https://aayushdn.github.io/smalljsprojects/randomQuoteJs/)|
