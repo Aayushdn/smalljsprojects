@@ -8,3 +8,5 @@
 | 2   | Infinite Scroll   | [Live here](https://aayushdn.github.io/smalljsprojects/infintescroll/)      |
 | 3   | Simple Calculator | [Live Here](https://aayushdn.github.io/smalljsprojects/calculatorAppOOP/) |
 | 4   | Random Quote | [Live Here](https://aayushdn.github.io/smalljsprojects/randomQuoteJs/)|
+| 5   | Snake | [Live Here](https://aayushdn.github.io/smalljsprojects/snake/)|
+| 6   | Weather app | [Live Here](https://aayushdn.github.io/smalljsprojects/weather/)|
