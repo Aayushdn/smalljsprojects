@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <title>Check weather Now!!</title>
+  </head>
+  <body>
+    <div class="container">
+      <main class="main">
+        <div class="logo">
+          <img class="weatherIcon" src="./assets/suncloud.svg" alt="" />
+        </div>
+        <div class="brief">
+          <h1>
+            <span id="place">Kathmandu,Nepal</span>,
+            <span id="temp">26</span>&deg;C
+          </h1>
+          <form action="" class="search">
+            <div class="form-group">
+              <input
+                type="text"
+                class="search-box"
+                placeholder="Enter city..... "
+                required
+                name="location"
+              />
+              <button type="submit">Go</button>
+            </div>
+          </form>
+        </div>
+      </main>
+      <div class="detail">
+        <div class="row">
+          <div class="left">
+            <img src="./assets/suncloud.svg" alt="weather-icon" class="weathericon">
+          </div>
+          <div class="mid">
+            <h1 class="boldTxt" id="detPlace">Kathmandu,Nepal</h1>
+            <div>
+              <p class="lightTxt">
+                <span><img src="./assets/weatherIcons/cloud-30.png" alt=""></span>
+                <span id="weather">Cloudy</span>
+              </p>
+              <p class="lightTxt">
+                <span><img src="./assets/weatherIcons/thermometer-30.png" alt=""></span>
+                <span id="tempr">26.8</span>&deg;C
+              </p>
+              <p class="lightTxt">
+                <span><img src="./assets/weatherIcons/humid-30.png" alt=""></span>
+                <span id="humidity">88</span>
+              </p>
+              <p class="lightTxt">
+                <span><img src="./assets/weatherIcons/wind-speed-30.png" alt=""></span>
+                <span id="wind">2.7</span>
+              </p>
+            </div>
+            
+          </div>
+          <div class="right">
+            <div class="pie"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
